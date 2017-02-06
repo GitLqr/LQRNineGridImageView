@@ -27,13 +27,7 @@
 app:imgGap="12dp"指头像间距，默认是8px。
 
 ###3、代码中使用：
-####1)设置数据源：
-	List<String> mData1 = new ArrayList<>();
-	...
-	填充数据
-	...
-	mNgiv1.setImagesData(mData1);
-####2)设置适配器：
+####1)设置适配器：
     LQRNineGridImageViewAdapter adapter = new LQRNineGridImageViewAdapter<String>() {
         @Override
         protected void onDisplayImage(Context context, ImageView imageView, String s) {
@@ -47,3 +41,9 @@ app:imgGap="12dp"指头像间距，默认是8px。
         }
     };
 	mNgiv1.setAdapter(adapter);
+####2)设置数据源：
+	List<String> mData1 = new ArrayList<>();
+	...
+	填充数据
+	...
+	mNgiv1.setImagesData(mData1);//会重画控件，使用适配器加载图片，所以要先设置适配器
