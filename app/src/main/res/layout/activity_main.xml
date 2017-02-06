@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lqr.MainActivity">
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="2dp"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv1"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv2"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv1"
+        android:layout_margin="2dp"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv5"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv2"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv4"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv3"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv5"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv7"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv4"
+        android:layout_margin="2dp"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv8"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv5"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv7"
+        android:background="#eeeeee"/>
+
+    <com.lqr.ninegridimageview.LQRNineGridImageView
+        android:id="@+id/ngiv9"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/ngiv6"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@id/ngiv8"
+        android:background="#eeeeee"/>
+</RelativeLayout>
