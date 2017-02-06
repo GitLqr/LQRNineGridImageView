@@ -4,8 +4,8 @@ import android.content.Context;
 import android.widget.ImageView;
 
 /**
- * @创建者 CSDN_LQR
- * @描述 九宫格图片控件适配器
+ * CSDN_LQR
+ * 九宫格图片控件适配器
  */
 public abstract class LQRNineGridImageViewAdapter<T> {
     /**

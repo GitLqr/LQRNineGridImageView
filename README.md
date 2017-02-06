@@ -10,7 +10,7 @@
 ##***二、使用：***
 ###1、在自己项目中添加本项目依赖：
 
-	compile 'com.lqr.ninegridimageview:library:1.0.1'
+	compile 'com.lqr.ninegridimageview:library:1.0.0'
 
 ###2、布局中使用：
 

@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @创建者 CSDN_LQR
- * @描述 九宫格图片控件
+ * CSDN_LQR
+ * 九宫格图片控件
  */
 public class LQRNineGridImageView<T> extends ViewGroup {
 
